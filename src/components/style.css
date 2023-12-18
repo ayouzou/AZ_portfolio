@@ -29,5 +29,6 @@
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
     padding: 20px;
     box-sizing: border-box;
+    overflow-y: auto;
   }
   
