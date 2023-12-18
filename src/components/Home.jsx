@@ -2,7 +2,8 @@ import React from "react";
 import HeroImage from "../assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
-
+import Lottie from "lottie-react";
+import man from '../assets/lottie/man.json'
 const Home = () => {
   return (
     <div
@@ -11,15 +12,18 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
       <div className="small-screen hidden">
-          <img
+          {/* <img
             src={HeroImage}
             alt="profile"
             className="rounded-2xl mx-auto w-2/3 md:w-full"
-          />
+          /> */}
+          <div className="rounded-2xl mx-auto w-2/3 md:w-full sm:mt-0 mt-8">
+            <Lottie animationData={man} loop={true} />
+          </div>
         </div>
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm <span className="text-sky-700">AYOUB ZOUINE</span> Full Stack Web Developer
+            I'm <span className="text-sky-700 sm:text-5xl">AYOUB ZOUINE</span> Full Stack Web Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             I have 1 years of experience building websites and desgining software.
@@ -42,11 +46,14 @@ const Home = () => {
           </div>
         </div>
         <div className="big-screen">
-          <img
+          {/* <img
             src={HeroImage}
             alt="profile"
             className="rounded-2xl mx-auto w-2/3 md:w-full"
-          />
+          /> */}
+           <div className="rounded-2xl mx-auto w-2/3 md:w-full">
+            <Lottie animationData={man} loop={true} />
+          </div>
         </div>
         
       </div>
