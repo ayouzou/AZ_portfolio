@@ -23,11 +23,6 @@ const Contact = () => {
           console.log(error.text);
       });
   };
-
-
-
-
-
   return (
     <div
       name="contact"
