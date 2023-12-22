@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 //function for form reset
 function handleSubmit(e){
@@ -8,6 +9,25 @@ function handleSubmit(e){
 }
 
 const Contact = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_kdakw3f', 'template_l7sqjkw', form.current, 'WwaOE1rB8UIdONIoR')
+      .then((result) => {
+          console.log(result.text);
+          console.log("message sent ")
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+
+
+
+
   return (
     <div
       name="contact"
@@ -23,7 +43,7 @@ const Contact = () => {
         
         <div className=" flex justify-center items-center">
           <form
-            onSubmit={handleSubmit}
+            ref={form} onSubmit={sendEmail}
             name="contact"
             method="POST"
             
@@ -31,14 +51,14 @@ const Contact = () => {
           >
             <input
               type="text"
-              name="name"
+              name="user_name"
               placeholder="Enter your name"
               required
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <input
               type="email"
-              name="email"
+              name="user_email"
               placeholder="Enter your email"
               required
               className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
