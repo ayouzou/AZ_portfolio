@@ -3,7 +3,7 @@ import './style.css'
 const Card = ({ imageSrc, title, description, stack }) => {
   return (
     <div className="card rounded-lg  shadow-md mb-5 cursor-pointer   ">
-      <img src={imageSrc} alt="" className="card-image mb-4 sm:w-full w-96 sm:h-full h-full object-cover rounded-md" />
+      <img src={imageSrc} alt="" className="card-image mb-4 sm:w-full w-96 sm:h-60 h-full object-cover rounded-md" />
       <div className="card-details ">
         <h2 className="sm:px-4 sm:text-xl font-bold sm:mb-2 text-white border-b-2  border-cyan-300">{title}</h2>
         <p className="sm:px-4 text-white sm:mb-4 sm:font-semibold font-normal">{description}</p>
