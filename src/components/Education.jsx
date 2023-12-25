@@ -4,27 +4,27 @@ const Education = () => {
     const educationDetails = [
         {
             id: 1,
-            title: "Formation en Stack MERN",
+            title: "MERN Stack Training",
             institution: "JobInTech",
             location: "Casablanca",
             year: "2023",
         },
         {
             id: 2,
-            title: " Techniques de Développement Informatique",
+            title: "Computer Development Techniques",
             institution: "ISTA",
             location: "Berrechid",
             year: "2020 - 2022",
         },
         {
             id: 3,
-            title: "BAC en Science Physique",
-            institution: "Lycée Hassan II",
+            title: "High School Diploma in Physical Science",
+            institution: "Hassan II High School",
             location: "Deroua",
-            year: "2019 - 2020 ",
+            year: "2019 - 2020",
         },
-        // Add more entries as needed
     ];
+    
     return (
         <div className="py-6">
             {educationDetails.map((education) => (

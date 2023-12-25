@@ -43,53 +43,53 @@ const Services = () => {
         },
         {
             imageSrc: carsrental,
-            title: 'Store Builder',
-            description: 'Store builder we provide to our customer a store with functionality to start manage his store e-comm with backoffice also.',
-            stack: 'MERN: MongoDB-Reactjs-Expressjs-Nodejs, Redux-ReactQuery-Tailwind',
+            title: 'Car Rental Desktop App',
+            description: 'Desktop application for renting cars, built with C# and SQL Server ADO.NET. The application allows users to manage car rentals and includes a back office for efficient operation.',
+            stack: 'C#-SQL Server ADO.NET',
             option: 'full stack'
 
         },
         {
             imageSrc: trvl,
-            title: 'Chat App',
-            description: 'I build a chat-app Real time by using MERN Stack',
-            stack: 'MERN: MongoDB-Reactjs-Expressjs-Nodejs, Redux-Bootstrap',
+            title: 'Travel Website Front End',
+            description: 'I created the front-end for a travel website using React and Tailwind CSS.',
+            stack: 'React-Tailwind CSS',
             option: 'front end'
 
 
         },
         {
             imageSrc: books,
-            title: 'StoreAZ Template',
-            description: 'This template of store-ecom from store builder with login register and dashboard!',
-            stack: 'MERN: MongoDB-Reactjs-Expressjs-Nodejs, Redux-ReactQuery-Tailwind',
+            title: 'Bookstore Interface',
+            description: 'I developed a front-end interface for a bookstore, incorporating book search functionality. The interface is built using React and CSS, and it consumes data from an API through a context.',
+            stack: 'React-CSS',
             option: 'front end'
 
         },
         {
             imageSrc: trvl2,
-            title: 'Store Builder',
-            description: 'Store builder we provide to our customer a store with functionality to start manage his store e-comm with backoffice also.',
-            stack: 'MERN: MongoDB-Reactjs-Expressjs-Nodejs, Redux-ReactQuery-Tailwind',
+            title: 'Travel Website Front End',
+            description: 'I created the front-end for a travel website using React and Tailwind CSS.',
+            stack: 'React-Tailwind CSS',
             option: 'front end'
 
         },
-        {
-            imageSrc: CHATAPP,
-            title: 'Chat App',
-            description: 'I build a chat-app Real time by using MERN Stack',
-            stack: 'MERN: MongoDB-Reactjs-Expressjs-Nodejs, Redux-Bootstrap',
-            option: 'front end'
+        // {
+        //     imageSrc: CHATAPP,
+        //     title: 'Chat App',
+        //     description: 'I build a chat-app Real time by using MERN Stack',
+        //     stack: 'MERN: MongoDB-Reactjs-Expressjs-Nodejs, Redux-Bootstrap',
+        //     option: 'front end'
 
-        },
-        {
-            imageSrc: StoreAZ,
-            title: 'StoreAZ Template',
-            description: 'This template of store-ecom from store builder with login register and dashboard!',
-            stack: 'MERN: MongoDB-Reactjs-Expressjs-Nodejs, Redux-ReactQuery-Tailwind',
-            option: 'front end'
+        // },
+        // {
+        //     imageSrc: StoreAZ,
+        //     title: 'StoreAZ Template',
+        //     description: 'This template of store-ecom from store builder with login register and dashboard!',
+        //     stack: 'MERN: MongoDB-Reactjs-Expressjs-Nodejs, Redux-ReactQuery-Tailwind',
+        //     option: 'front end'
 
-        },
+        // },
     ];
     const [displayedProjects, setDisplayedProjects] = useState(projects.slice(0, 9));;
     const [selectedFilter, setSelectedFilter] = useState(null);
@@ -105,7 +105,7 @@ const Services = () => {
         setDisplayedProjects(filteredProjects.slice(0, 9)); 
     };
     return (
-        <div name="portfolio "
+        <div name="portfolio"
             className='text-white bg-gradient-to-b from-black to-gray-800  h-auto'>
             <div className='max-w-screen-xl p-4 mx-auto flex flex-col justify-center w-full h-full  '>
                 <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
