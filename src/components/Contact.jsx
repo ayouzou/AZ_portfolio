@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-
+import toast, { Toaster } from 'react-hot-toast';
 //function for form reset
 function handleSubmit(e){
   setTimeout(() => {
@@ -14,11 +14,13 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    setTimeout(() => {
+      e.target.reset();
+    }, 3000);
     emailjs.sendForm('service_kdakw3f', 'template_l7sqjkw', form.current, 'WwaOE1rB8UIdONIoR')
       .then((result) => {
-          console.log(result.text);
-          console.log("message sent ")
+        toast.success('message send !')
+       
       }, (error) => {
           console.log(error.text);
       });

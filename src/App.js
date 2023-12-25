@@ -7,10 +7,12 @@ import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
 import Footer from "./components/Footer"
 import Services from "./components/Services";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
     <div>
+       <Toaster />
       <NavBar />
       <Home />
       <About />
