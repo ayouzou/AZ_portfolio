@@ -23,14 +23,17 @@ const Services = () => {
             title: 'Store Builder',
             description: 'Store builder we provide to our customer a store with functionality to start manage his store e-comm with backoffice also.',
             stack: 'MERN: MongoDB-Reactjs-Expressjs-Nodejs, Redux-ReactQuery-Tailwind',
-            option: 'full stack'
+            option: 'full stack',
+            href:'/'
+
         },
         {
             imageSrc: CHATAPP,
             title: 'Chat App',
             description: 'I build a chat-app Real time by using MERN Stack',
             stack: 'MERN: MongoDB-Reactjs-Expressjs-Nodejs, Redux-Bootstrap',
-            option: 'full stack'
+            option: 'full stack',
+            href:'/'
 
         },
         {
@@ -38,7 +41,8 @@ const Services = () => {
             title: 'StoreAZ Template',
             description: 'This template of store-ecom from store builder with login register and dashboard!',
             stack: 'MERN: MongoDB-Reactjs-Expressjs-Nodejs, Redux-ReactQuery-Tailwind',
-            option: 'full stack'
+            option: 'full stack',
+            href:'/'
 
         },
         {
@@ -46,7 +50,8 @@ const Services = () => {
             title: 'Car Rental Desktop App',
             description: 'Desktop application for renting cars, built with C# and SQL Server ADO.NET. The application allows users to manage car rentals and includes a back office for efficient operation.',
             stack: 'C#-SQL Server ADO.NET',
-            option: 'full stack'
+            option: 'full stack',
+            href:'/'
 
         },
         {
@@ -54,7 +59,9 @@ const Services = () => {
             title: 'Travel Website Front End',
             description: 'I created the front-end for a travel website using React and Tailwind CSS.',
             stack: 'React-Tailwind CSS',
-            option: 'front end'
+            option: 'front end',
+            href:'/'
+
 
 
         },
@@ -63,7 +70,9 @@ const Services = () => {
             title: 'Bookstore Interface',
             description: 'I developed a front-end interface for a bookstore, incorporating book search functionality. The interface is built using React and CSS, and it consumes data from an API through a context.',
             stack: 'React-CSS',
-            option: 'front end'
+            option: 'front end',
+            href:'/'
+
 
         },
         {

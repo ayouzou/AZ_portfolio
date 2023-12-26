@@ -12,7 +12,7 @@ const Home = () => {
   useEffect(() => {
     console.log("Initializing AOS");
     aos.init({ duration: 2000 });
-  }, []);
+  });
   
   return (
     <div
@@ -30,17 +30,17 @@ const Home = () => {
             <Lottie animationData={man} loop={true} />
           </div>
         </div>
-        <div className="flex flex-col justify-center h-full">
+        <div className="flex flex-col justify-center h-full" data-aos="fade-right">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I'm <span className="text-sky-700 sm:text-5xl">AYOUB ZOUINE</span> Full Stack Web Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 1 years of experience building websites and desgining software.
+            I have +1 year of experience building websites and desgining software.
             I love to work on web application using technologies like
             React, Tailwind, Next JS and TypeScript.
           </p>
 
-          <div className="portfolio-btn" data-aos="fade-up">
+          <div className="portfolio-btn" data-aos="fade-down">
             <Link
               to="portfolio"
               smooth
