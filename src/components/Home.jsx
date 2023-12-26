@@ -40,7 +40,7 @@ const Home = () => {
             React, Tailwind, Next JS and TypeScript.
           </p>
 
-          <div className="portfolio-btn" data-aos="fade-down">
+          <div className="portfolio-btn" data-aos="fade-left">
             <Link
               to="portfolio"
               smooth
