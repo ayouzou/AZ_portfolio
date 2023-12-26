@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css'
 
 const Card = ({ imageSrc, title, description, stack,href }) => {
- 
+    console.log(href)
   return (
     <a href={href} target='_blank' className="card rounded-lg  shadow-md mb-5 cursor-pointer   ">
       <img src={imageSrc} alt="" className="card-image mb-4 sm:w-full w-96 sm:h-60 h-52 object-cover rounded-md" />
