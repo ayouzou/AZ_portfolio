@@ -71,7 +71,8 @@ const Services = () => {
             title: 'Travel Website Front End',
             description: 'I created the front-end for a travel website using React and Tailwind CSS.',
             stack: 'React-Tailwind CSS',
-            option: 'front end'
+            option: 'front end',
+            href:'https://travel-ayouzou.vercel.app/'
 
         },
         // {

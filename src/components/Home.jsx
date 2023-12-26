@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import HeroImage from "../assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import Lottie from "lottie-react";
 import man from '../assets/lottie/man.json'
+
+import aos from 'aos'
+import 'aos/dist/aos.css'
 const Home = () => {
+
+  useEffect(() => {
+    console.log("Initializing AOS");
+    aos.init({ duration: 2000 });
+  }, []);
+  
   return (
     <div
       name="home"
@@ -17,7 +26,7 @@ const Home = () => {
             alt="profile"
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           /> */}
-          <div className="rounded-2xl mx-auto w-2/3 md:w-full sm:mt-0 mt-8">
+          <div data-aos="fade-up"  className="rounded-2xl mx-auto w-2/3 md:w-full sm:mt-0 mt-8">
             <Lottie animationData={man} loop={true} />
           </div>
         </div>
@@ -31,7 +40,7 @@ const Home = () => {
             React, Tailwind, Next JS and TypeScript.
           </p>
 
-          <div className="portfolio-btn">
+          <div className="portfolio-btn" data-aos="fade-up">
             <Link
               to="portfolio"
               smooth
