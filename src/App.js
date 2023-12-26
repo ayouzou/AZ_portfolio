@@ -22,7 +22,7 @@ function App() {
       <Contact />
       <Footer />
       <SocialLinks />
-      {/* <SocialLinksSmall/> */}
+      <SocialLinksSmall/>
     </div>
   );
 }
