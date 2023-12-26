@@ -3,13 +3,13 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import resume from "../assets/portfolio/cv_zouine_ayoub.pdf"
-const SocialLinks = () => {
+const SocialLinksSmall = () => {
   const links = [
     {
       id: 1,
       child: (
         <>
-          LinkedIn <FaLinkedin size={30} />
+           <FaLinkedin size={30} />
         </>
       ),
       href: "https://www.linkedin.com/in/ayoub-zouine-3b0647233/",
@@ -19,7 +19,7 @@ const SocialLinks = () => {
       id: 2,
       child: (
         <>
-          GitHub <FaGithub size={30} />
+           <FaGithub size={30} />
         </>
       ),
       href: "https://github.com/ayouzou",
@@ -28,7 +28,7 @@ const SocialLinks = () => {
       id: 3,
       child: (
         <>
-          Email <HiOutlineMail size={30} />
+           <HiOutlineMail size={30} />
         </>
       ),
       href: "mailto:ayoubzouine83@gmail.com",
@@ -37,34 +37,23 @@ const SocialLinks = () => {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} />
+           <BsFillPersonLinesFill size={30} />
         </>
       ),
       href: resume,
       download: true,
     },
-    // {
-    //   id: 5,
-    //   child: (
-    //     <>
-    //       Twitter <FaTwitter size={30} />
-    //     </>
-    //   ),
-    //   href: "https://twitter.com/rahulkarda2002",
-    //   style: "rounded-br-md",
-    // },
+
   ];
 
   return (
-    <div className="lg:flex flex-col top-[35%] left-0 fixed">
-      <ul>
+    <div className="lg:flex flex-col top-[35%] left-[50%] fixed">
+      <ul className="flex">
         {links.map(({ id, child, href, style, download }) => (
           <li
             key={id}
-            className={
-              "flex justify-between items-center sm:w-40 w-36 h-14 sm:px-4 px-2 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-900" +
-              " " +
-              style
+            className={ "flex justify-between items-center sm:w-4 w-36 h-14 sm:px-4 px-2  hover:rounded-md duration-300 bg-gray-900" +
+              " " +style
             }
           >
             <a
@@ -83,4 +72,4 @@ const SocialLinks = () => {
   );
 };
 
-export default SocialLinks;
+export default SocialLinksSmall;

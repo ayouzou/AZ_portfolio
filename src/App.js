@@ -8,6 +8,7 @@ import SocialLinks from "./components/SocialLinks";
 import Footer from "./components/Footer"
 import Services from "./components/Services";
 import { Toaster } from "react-hot-toast";
+import SocialLinksSmall from "./components/SocialLinksSmall";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Contact />
       <Footer />
       <SocialLinks />
+      {/* <SocialLinksSmall/> */}
     </div>
   );
 }
