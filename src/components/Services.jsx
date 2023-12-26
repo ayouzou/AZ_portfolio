@@ -131,7 +131,7 @@ const Services = () => {
                     </div>
                 ))}
             </div>
-                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 sm:h-auto h-full mt-5  ' >
+                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 sm:h-auto h-auto mt-5  ' >
                     {displayedProjects.map((project, index) => (
                         <Card key={index} {...project} />
                     ))}
