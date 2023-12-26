@@ -24,7 +24,7 @@ const Services = () => {
             description: 'Store builder we provide to our customer a store with functionality to start manage his store e-comm with backoffice also.',
             stack: 'MERN: MongoDB-Reactjs-Expressjs-Nodejs, Redux-ReactQuery-Tailwind',
             option: 'full stack',
-            href:'/'
+            href:'/https://github.com/ayouzou/AZ_store_/tree/main/client'
 
         },
         {
@@ -42,7 +42,7 @@ const Services = () => {
             description: 'This template of store-ecom from store builder with login register and dashboard!',
             stack: 'MERN: MongoDB-Reactjs-Expressjs-Nodejs, Redux-ReactQuery-Tailwind',
             option: 'full stack',
-            href:'/'
+            href:'/https://github.com/ayouzou/AZ_store_/tree/main/client'
 
         },
         {
@@ -67,7 +67,7 @@ const Services = () => {
             description: 'I developed a front-end interface for a bookstore, incorporating book search functionality. The interface is built using React and CSS, and it consumes data from an API through a context.',
             stack: 'React-CSS',
             option: 'front end',
-            href:'/'
+            href:'/https://github.com/ayouzou/Books_api'
         },
         {
             imageSrc: trvl2,
