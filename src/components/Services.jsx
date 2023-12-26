@@ -52,7 +52,6 @@ const Services = () => {
             stack: 'C#-SQL Server ADO.NET',
             option: 'full stack',
             href:'/'
-
         },
         {
             imageSrc: trvl,
@@ -61,9 +60,6 @@ const Services = () => {
             stack: 'React-Tailwind CSS',
             option: 'front end',
             href:'https://trvl-kappa.vercel.app/'
-
-
-
         },
         {
             imageSrc: books,
@@ -72,8 +68,6 @@ const Services = () => {
             stack: 'React-CSS',
             option: 'front end',
             href:'/'
-
-
         },
         {
             imageSrc: trvl2,
@@ -82,7 +76,6 @@ const Services = () => {
             stack: 'React-Tailwind CSS',
             option: 'front end',
             href:'https://travel-ayouzou.vercel.app/'
-
         },
         // {
         //     imageSrc: CHATAPP,
