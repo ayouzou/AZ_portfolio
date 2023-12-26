@@ -13,16 +13,22 @@ import SocialLinksSmall from "./components/SocialLinksSmall";
 function App() {
   return (
     <div>
-       <Toaster />
+      <Toaster />
       <NavBar />
       <Home />
       <About />
-      <Services/>
-      <Experience />      
+      <Services />
+      <Experience />
       <Contact />
       <Footer />
-      <SocialLinks />
-      <SocialLinksSmall/>
+      {/* <SocialLinks />
+      <SocialLinksSmall/> */}
+
+      {window.innerWidth > 768 ? (
+        <SocialLinks />
+      ) : (
+        <SocialLinksSmall />
+      )}
     </div>
   );
 }
