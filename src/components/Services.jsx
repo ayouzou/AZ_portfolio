@@ -7,6 +7,7 @@ import carsrental from '../assets/portfolio/carsRental.png'
 import trvl from '../assets/portfolio/trvl.png'
 import books from '../assets/portfolio/books.png'
 import trvl2 from '../assets/portfolio/trvl2.png'
+import landing_ui from '../assets/portfolio/landing_ui.png'
 
 
 
@@ -18,6 +19,15 @@ const buttons = [
 // import './style.css'
 const Services = () => {
     const projects = [
+        {
+            imageSrc: landing_ui,
+            title: 'landing page ui',
+            description: 'landing page ui with react and tailwind .',
+            stack: 'Reactjs-Tailwind',
+            option: 'front end',
+            href:'https://landing-page-ui-nine.vercel.app/'
+
+        },
         {
             imageSrc: storeBuilder,
             title: 'Store Builder',
