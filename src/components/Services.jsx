@@ -8,6 +8,7 @@ import trvl from '../assets/portfolio/trvl.png'
 import books from '../assets/portfolio/books.png'
 import trvl2 from '../assets/portfolio/trvl2.png'
 import landing_ui from '../assets/portfolio/landing_ui.png'
+import landing_AZ_2 from '../assets/portfolio/landin_az-2.png'
 
 
 
@@ -53,6 +54,15 @@ const Services = () => {
             stack: 'MERN: MongoDB-Reactjs-Expressjs-Nodejs, Redux-ReactQuery-Tailwind',
             option: 'full stack',
             href:'https://github.com/ayouzou/AZ_store_/tree/main/client'
+
+        },
+        {
+            imageSrc: landing_AZ_2,
+            title: 'landing AZ ui',
+            description: 'landing page ui with react and tailwind .',
+            stack: 'Reactjs-Tailwind',
+            option: 'front end',
+            href:'https://landing-az-2.vercel.app/'
 
         },
         {
