@@ -9,6 +9,7 @@ import Footer from "./components/Footer"
 import Services from "./components/Services";
 import { Toaster } from "react-hot-toast";
 import SocialLinksSmall from "./components/SocialLinksSmall";
+import Certificates from "./components/Certificates";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <About />
       <Services />
       <Experience />
+      <Certificates/>
       <Contact />
       <Footer />
       {/* <SocialLinks />
