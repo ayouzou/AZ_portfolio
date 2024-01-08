@@ -8,7 +8,7 @@ function Certificates() {
     <>
       <div className="my_certificates_container bg-gradient-to-b from-black to-gray-800 text-white justify-center "
        name='Certification'>
-      <p className='text-4xl font-bold inline border-b-4  border-cyan-700'>Mes certifications</p>
+      <p className='text-4xl font-bold inline border-b-4  border-cyan-700'>Certification</p>
         <div className="certificates_header_container mt-20">
          
           <div className="certificates_data_container ">
